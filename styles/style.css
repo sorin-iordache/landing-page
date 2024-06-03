@@ -1,0 +1,116 @@
+/* CSS Reset */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Fonts */
+
+@font-face {
+    font-family: 'BeaufortforLOL-MediumItalic';
+    font-style: normal;
+    font-weight: normal;
+    src: src('../fonts/BeaufortforLOL-MediumItalic.ttf'), url('../fonts/BeaufortforLOL-MediumItalic.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'BeaufortforLOL-BoldItalic';
+    font-style: normal;
+    font-weight: normal;
+    src: url('../fonts/BeaufortforLOL-BoldItalic.ttf'), url('../fonts/BeaufortforLOL-BoldItalic.woff') format('woff');
+}
+
+/* General Styles */
+a,
+h3,
+p {
+    font-family: 'Roboto', sans-serif;
+    color: #fff;
+}
+
+h1,
+h2 {
+    font-family: 'BeaufortforLOL-BoldItalic', sans-serif;
+}
+
+/* Header */
+
+.header {
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(/images/hero.jpg) no-repeat center center fixed;
+    background-size: cover;
+}
+
+
+/* Navigation */
+
+#logo {
+    font-size: 24px;
+    font-family: 'BeaufortforLOL-BoldItalic', sans-serif;
+    color: #f9faf8;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    font-size: 18px;
+    color: #f9faf8;
+}
+
+a:hover {
+    color: #3882f6;
+}
+
+/* Hero */
+
+ .hero h1 {
+    font-size: 48px;
+    font-weight: bold;
+    color: #f9faf8;
+ }
+
+.hero h2 {
+    font-size: 18px;
+    color: #c8aa6e;
+}
+
+/* Abilities */
+
+.ability p {
+    color: #1f2937;
+}
+
+/* Inspirational Quote */
+
+.quote {
+    background-color: #e5e7eb;
+}
+
+.quote p {
+    font-size: 36px;
+    font-weight: lighter;
+    font-style: italic;
+    color: #1f2937;
+}
+
+.quote h3 {
+    color: #000;
+}
+
+/* Call to Action */
+
+.cta-container {
+    background-color: #3882f6;
+    margin: 32px;
+}
+
+/* Footer */
+footer {
+    background-color: #1f2937;
+    text-align: center;
+    padding: 24px 0;
+}
