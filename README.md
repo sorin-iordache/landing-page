@@ -30,12 +30,12 @@ This is a landing page for Braum, a character from the video game **League of Le
         - `BraumR.jpg`
         - `hero.jpg`
         - `mini-hero.jpg`
-  - `fonts/`
+    - `fonts/`
         - `BeaufortforLOL-BoldItalic.ttf`
         - `BeaufortforLOL-BoldItalic.woff`
         - `BeaufortforLOL-LightItalic.ttf`
         - `BeaufortforLOL-LightItalic.woff`
-  - `styles/`
+    - `styles/`
         - `style.css`
   - `index.html`
   - `README.md`
