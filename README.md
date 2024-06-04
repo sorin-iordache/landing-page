@@ -22,20 +22,29 @@ This is a landing page for Braum, a character from the video game **League of Le
 
 ## Project Structure
 
-braum-landing-page/
-├── images/
-│ ├── BraumQ.jpg
-│ ├── BraumW.jpg
-│ ├── BraumE.jpg
-│ ├── BraumR.jpg
-│ ├── hero.jpg
-│ └── mini-hero.jpg
-├── styles/
-│ └── style.css
-├── index.html
-└── README.md
+- `braum-landing-page/`
+    - `images/`
+        - `BraumQ.jpg`
+        - `BraumW.jpg`
+        - `BraumE.jpg`
+        - `BraumR.jpg`
+        - `hero.jpg`
+        - `mini-hero.jpg`
+  - `fonts/`
+        - `BeaufortforLOL-BoldItalic.ttf`
+        - `BeaufortforLOL-BoldItalic.woff`
+        - `BeaufortforLOL-LightItalic.ttf`
+        - `BeaufortforLOL-LightItalic.woff`
+  - `styles/`
+        - `style.css`
+  - `index.html`
+  - `README.md`
 
 
 ## Contributions
 
-This is a Project done as an assigment from the Odin Project - Foundations Course - Project: Landing Page.
+This is a Project done as an assignment from the Odin Project - Foundations Course - Project: Landing Page.
+
+## Disclaimer
+
+This project is for practice purposes only. All images, characters, and related content are NOT my property. No copyright infringement is intended, and no part of this project is used for commercial purposes.
