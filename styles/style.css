@@ -23,6 +23,7 @@
 }
 
 /* General Styles */
+
 a,
 h3,
 p {
@@ -35,15 +36,49 @@ h2 {
     font-family: 'BeaufortforLOL-BoldItalic', sans-serif;
 }
 
+.header {
+    margin: auto 200px;
+}
+
+button {
+    padding: 10px 30px;
+    background-color: #3882f6;
+    border: 1px solid #fff;
+    border-radius: 5px;
+    width: 180px;
+}
+
+button:hover {
+    background-color: #fff;
+    border: 1px solid #3882f6;
+}
+
+button:hover a {
+    color: #3882f6;
+}
+
 /* Header */
 
-.header {
+.hero-image {
     background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(/images/hero.jpg) no-repeat center center fixed;
     background-size: cover;
 }
 
 
 /* Navigation */
+
+.main-nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 24px 0 ;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
 
 #logo {
     font-size: 24px;
@@ -61,7 +96,7 @@ a {
     color: #f9faf8;
 }
 
-a:hover {
+ul a:hover {
     color: #3882f6;
 }
 
@@ -71,11 +106,40 @@ a:hover {
     font-size: 48px;
     font-weight: bold;
     color: #f9faf8;
+    margin-bottom: 5px;
  }
 
 .hero h2 {
     font-size: 18px;
     color: #c8aa6e;
+    margin-bottom: 30px;
+}
+
+.hero {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    gap: 50px;
+}
+
+.info {
+
+    flex: 1;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.info p {
+    width: 650px;
+    line-height: 1.6;
+    margin-bottom: 30px;
+}
+
+.mini-hero {
+    width: 650px;
+    height: auto;
+    margin-bottom: 40px;
+
 }
 
 /* Abilities */
